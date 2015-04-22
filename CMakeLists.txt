@@ -33,3 +33,8 @@ target_link_libraries(example ${LIBS})
 # set the install targets: http://www.cmake.org/cmake/help/v3.2/command/install.html#introduction
 #install(TARGETS example DESTINATION bin)
 #install(FILES "${PROJECT_BINARY_DIR}/config.h" DESTINATION include)
+
+# test
+enable_testing()
+add_test(Run example)
+set_tests_properties(Run PROPERTIES PASS_REGULAR_EXPRESSION "Running example ${VERSION}")
