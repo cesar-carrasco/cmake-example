@@ -1,3 +1,4 @@
 
+#cmakedefine USE_MYLIB
 #define VERSION_MAJOR @example_VERSION_MAJOR@
 #define VERSION_MINOR @example_VERSION_MINOR@

@@ -29,3 +29,7 @@ add_executable(example example.cxx)
 
 # link the lib
 target_link_libraries(example ${LIBS})
+
+# set the install targets (installs to /usr/local/{bin|include}/)
+install(TARGETS example DESTINATION bin)
+install(FILES "${PROJECT_BINARY_DIR}/config.h" DESTINATION include)
