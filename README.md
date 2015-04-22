@@ -1,2 +1,11 @@
 # cmake-tutorial
-CMake Tutorial from http://www.cmake.org/cmake-tutorial/
+Simple cmake example
+
+```bash
+$ mkdir build
+$ cd build
+$ cmake ..
+$ make
+$ ./Example
+```
+
