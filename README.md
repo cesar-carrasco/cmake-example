@@ -1,4 +1,4 @@
-# cmake-tutorial
+# cmake-example
 Simple cmake example
 
 ```bash
