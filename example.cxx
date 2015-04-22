@@ -4,6 +4,6 @@
 
 int main()
 {
-	std::cout << "Running example " << VERSION_MAJOR << "." << VERSION_MINOR << std::endl;
-	return 0;
+    std::cout << "Running example " << VERSION_MAJOR << "." << VERSION_MINOR << std::endl;
+    return 0;
 }
