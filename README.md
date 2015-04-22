@@ -7,6 +7,6 @@ $ cd build
 $ cmake ..
 $ make
 $ ctest
-$ ./Example
+$ ./example
 ```
 
